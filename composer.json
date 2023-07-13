@@ -1,0 +1,24 @@
+{
+    "name": "manka/package1",
+    "description": "this is package 1",
+    "type": "project",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "php": "^8.1"
+    },
+    "license": "free",
+    "autoload": {
+        "psr-4": {
+            "Manka\\Package1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pawan Manka",
+            "email": "pawanmanka07@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
